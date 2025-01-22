@@ -2,6 +2,10 @@
 
 A soft-wrapping movement workaround plugin for kakoune.
 
+> [!WARNING]
+> This plugin should NOT work perfectly. The status is just barely usable.
+> So don't put too much hope on it. :joy:
+
 ## Installation
 
 With [kak-bundle](https://codeberg.org/jdugan6240/kak-bundle):
