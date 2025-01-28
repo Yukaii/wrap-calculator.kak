@@ -12,8 +12,8 @@ With [kak-bundle](https://codeberg.org/jdugan6240/kak-bundle):
 
 ```kak
 bundle wrap-calculator https://github.com/Yukaii/wrap-calculator.kak %{
-  map global user J ':unset-j<ret>' -docstring 'Line move down'
-  map global user K ':unset-k<ret>' -docstring 'Line move up'
+  map global goto J '<esc>:unset-j<ret>' -docstring 'Line move down'
+  map global goto K '<esc>:unset-k<ret>' -docstring 'Line move up'
 }
 ```
 
